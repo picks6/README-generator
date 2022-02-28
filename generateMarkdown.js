@@ -13,6 +13,12 @@ function generateLicense(data) {
 // TODO: Create a function to generate markdown for README
 
 function generateMarkdown(data){
+    if (data.licenses === "MIT License") {
+        data.licenses = "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)";
+      }
+      if (data.licenses === "APACHE 2.0") {
+        data.licenses = "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)";
+      };
     
   return `# Table of Contents
   1. [Github](#Github)
@@ -42,8 +48,7 @@ ${data.test}
 ${data.github}
 # Email
 ${data.email}
-  `;
-  }
-  
-  module.exports = generateMarkdown;
-  return `# ${data.title}`
+`;
+};  
+module.exports = generateMarkdown;
+//  return `# ${data.title}`  
