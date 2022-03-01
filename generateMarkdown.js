@@ -22,7 +22,7 @@ function generateMarkdown(data){
     
   return `# Table of Contents
   1. [Title](#Title)
-  2. [Description](#Project Description)
+  2. [Description](#Description)
   3. [Installation](#Installation)
   4. [Benefits](#Benefits)
   5. [Licenses](#Licenses)
@@ -32,7 +32,7 @@ function generateMarkdown(data){
   9. [Email](#Email)
   
   # ${data.title}
-# Project Description
+# Description
 ${data.description}
 # Installation
 ${data.installation}
