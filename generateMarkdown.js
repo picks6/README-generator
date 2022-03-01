@@ -21,15 +21,15 @@ function generateMarkdown(data){
       };
     
   return `# Table of Contents
-  1. [Github](#Github)
-  2. [Email](#Email)
-  3. [Title](#Title)
-  4. [Description](#Project Description)
-  5. [Installation](#Installation)
-  6. [Benefits](#Benefits)
-  7. [Licenses](#Licenses)
-  8. [Contributions](#Contributions)
-  9. [Test](#Test)
+  1. [Title](#Title)
+  2. [Description](#Project Description)
+  3. [Installation](#Installation)
+  4. [Benefits](#Benefits)
+  5. [Licenses](#Licenses)
+  6. [Contributions](#Contributions)
+  7. [Test](#Test)
+  8. [Github](#Github)
+  9. [Email](#Email)
   
   # ${data.title}
 # Project Description
