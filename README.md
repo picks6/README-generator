@@ -12,6 +12,10 @@
   # Professional README generator
 # Description
 A CLI to create professional looking README files for your github projects
+
+https://user-images.githubusercontent.com/95437073/156263200-dd138e89-7721-4ebb-8479-4f762f20651c.mp4
+
+
 # Installation
 Download the respoitory and install dependencies. Run node index from the terminal and follow the prompts
 # Benefits
