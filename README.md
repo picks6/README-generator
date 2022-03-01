@@ -2,15 +2,16 @@
   1. [Github](#Github)
   2. [Email](#Email)
   3. [Title](#Title)
-  4. [Description](#Project Description)
+  4. [Description](#Description)
   5. [Installation](#Installation)
   6. [Benefits](#Benefits)
   7. [Licenses](#Licenses)
   8. [Contributions](#Contributions)
   9. [Test](#Test)
-  
-  # Professional README-generator
-# Project Description
+
+# Professional README-generator
+
+# Description
 A Command Line Interface to generate README files for github
 # Installation
 Download the respoitory, use npm install async to install dependencies and run node index from the integrated terminal
